@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada de um número qualquer</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 100;
+    }
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    main aside#infos{
+        flex-direction: row;
+    }
+
+    input#num{
+        border-radius: 10px;
+        border:1px solid;
+        width:60px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
+    }
+
+    button{
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    ul{
+        padding:5px;
+        list-style-type:none;
+        border: 1px solid rgba(0, 0, 0, 0.356);
+        border-radius: 10px;
+        width:200px;
+    }
+</style>
+<body>
+    <main>
+        <aside>
+            <h1>Tabuada de um número qualquer</h1>
+            <p>Digite um número abaixo para ser mostrado sua tabuada:</p>
+        </aside>
+        <aside id="infos">
+            <input type="number" name="num" id="num">
+            <button id="mostrar">Confirmar</button>
+        </aside>
+        <aside>
+            <ul>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+            </ul>
+        </aside>
+    </main>
+    <script src="index4.js"></script>
+</body>

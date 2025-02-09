@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS DOM NA PRÁTICA</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: rgb(240, 245, 221);
+    }
+
+    div#container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    div#container input{
+        margin-right:10px;
+        margin-left:10px;
+        border-radius: 10px;
+        border: solid 2px;
+    }
+
+    div#container button{
+        border-radius: 5px;
+        background-color: rgb(235, 235, 155);
+        border:1px solid;
+        width:80px;
+        height:25px;
+        margin:10px;
+        transition:0.3s;
+    }
+
+    div#container button:hover{
+        width:85px;
+        height:30px;
+    }
+
+    img{
+        border-radius: 10px;
+    }
+
+</style>
+<body>
+    <h1>Exercício 2 - Manipulando EVENTOS DOM com interações de usuário</h1>
+    <h2>Somando números mt fodakkkk</h2>
+    <img src="imagem-zoera.jpeg" alt="Imagem de meme">
+    <div id="container">
+        <input type="number" name="n1" id="n1">
+        <p>+</p>
+        <input type="number" name="n2" id="n2">
+        <button>Somar</button>
+    </div>
+    <div id="resposta"></div>
+    <script src="index2.js">
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voto & Título de eleitor</title>
+    <style>
+        main{
+            text-align:center;
+        }
+
+        h1{
+            font-size: 2em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        aside#campo-inserir{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap:20px;
+        }
+
+        aside#campo-inserir input{
+            width:60px;
+            border-radius: 10px;
+            border:1px solid black;
+        }
+
+        aside#campo-inserir input:active{
+            width:62px;
+            border:2px solid black;
+        }
+
+        button{
+            width:80px;
+            border-radius: 5px;
+        }
+
+        button:active{
+            width:82px;
+            height:25px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <aside>
+            <h1>Sistema de cadastro e título de eleitor</h1>
+            <p>Insira sua idade no campo abaixo para saber seu estado de cidadão:</p>
+        </aside>
+        <aside id="campo-inserir">
+            <input type="number" name="idade" id="idadeCam">
+            <button id="btn">
+                confirmar
+            </button>
+        </aside>
+        <aside>
+            <p id="resp"></p>
+            <p id="resp2"></p>
+        </aside>
+    </main>
+
+    <script src="ex1.js"></script>
+</body>
+</html>

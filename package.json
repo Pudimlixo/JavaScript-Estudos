@@ -1,0 +1,16 @@
+{
+  "name": "estudos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vinicius",
+  "license": "ISC",
+  "description": "Programas feitos em JS para o treino de lógica",
+  "dependencies": {
+    "inquirer": "^12.3.2"
+  }
+}

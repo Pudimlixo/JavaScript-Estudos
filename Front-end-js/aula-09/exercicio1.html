@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando DOM em JS</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            background-color: rgb(236, 236, 139);
+        }
+
+        div#campo{
+            display:flex;
+            justify-content: center;
+        }
+
+        input{
+            width:500px;
+            border-radius: 10px;
+            outline: none;
+            border:1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o <i>resultado</i></p>
+    <div>Clique em mim</div>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div id="campo"><input type="text"></div>
+    <script>
+        /*window.document.write(window.document.title)//Título do documento
+        window.document.write(window.document.location)//Localização do servidor do documento
+        window.alert(window.navigator.appCodeName)*/
+
+        /*Métodos de seleção de objetos para manipulação de componentes visuais:
+        - Por nome de tag
+        - Por Classe e Identificador de elemento
+        - Por nome do elemento
+        - Por seletor de CSS
+        
+        */
+        /*
+        var paragrafh = document.getElementsByTagName('p')[0]//Seleção de tag e a ordem da tag por nome dessa tag
+        window.alert(paragrafh.innerText)//Aparecer texto dentro da variável numa janela de alerta
+        window.document.write(paragrafh.innerText)//Aparecer texto dentro da variável no escopo da página
+        */
+        
+        //Alteração de cor de parágrafo por chamada de nome de tag
+        var texto = window.document.getElementsByTagName('p')[0]
+        document.writeln('Texto duplicado: '+ texto.innerText)
+        texto.style.color = 'darkblue'
+
+       //Alteração de cor de fundo em CSS por JS
+        var fundo = window.document.body
+        fundo.style.background = 'gold'
+
+        //Alteração de dimensão de título com CSS através de JS
+        var titulo = window.document.getElementsByTagName('h1')[0]
+        titulo.style.fontSize = '4em'
+
+        var teste = document.getElementsByTagName('p')[0]
+        document.writeln('Teste com título: '+ teste.innerHTML)
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Autenticação e cadastro</h1>
+    </header>
+    <main>
+        <div id="ins1">
+            <strong>
+                <p>Digite ano de nascimento:<input type="number" name="txtano" id="ano" min="0"></p>
+            </strong>
+        </div>
+        <div id="ins2">
+            <div>
+                <strong>
+                    <p>Insira seu sexo:</p>
+                    <p><input type="radio" name="textsex" id="masc" checked><label for="masc">Masculino</label></p>
+                    <p><input type="radio" name="textsex" id="fem"><label for="fem">Feminino</label></p>
+                </strong>
+            </div>
+            <input id="confirm" type="button" value="Verificar">
+        </div>
+        <div id="resultado-ver">
+            <p>Os campos acima são obrigatórios*</p>
+            <p id="result"></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Direitos autorais reservados - Site criado para fins pedagógicos</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

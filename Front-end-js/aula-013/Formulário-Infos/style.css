@@ -1,0 +1,82 @@
+:root{
+    -cor1:#517EA6;
+    -cor2:#405F73;
+    -cor3:#F2F2F2;
+    -cor4:#8C8C8C;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#85b1d8;
+}
+
+body p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-size: 2.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#25465c;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width:500px;
+    max-height:550px;
+    min-width:300px;
+    min-height: none;
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+}
+
+div#ins1 input{
+    border-radius: 10px;
+    border: 1px solid black;
+    width:100px;
+    margin-left: 10px;
+}
+
+div#ins2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10px;
+    margin-bottom:5px;
+}
+
+div#ins2 > div strong{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+div#ins2 > div p{
+    margin-right: 10px;
+}
+
+div#resultado-ver{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer{
+    margin-top:30px;
+    text-align: center;
+    font-style: italic;
+}
