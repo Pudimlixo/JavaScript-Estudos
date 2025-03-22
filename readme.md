@@ -18,4 +18,14 @@ A pasta de Front-end-js estuda os conceitos mais triviais de DOM e Js para o lad
 - Criação de elementos em certos contextos com DOM
 - Conceitos de lógica de programação aplicados ao cliente
 
+A pasta de rotinas aborda exercícios que estudam o conceito de diferentes tipos de procedimentos como funções sem parâmetros, com parâmetros, callback, etc. O objetivo de treinar esses conceitos são o aprendizado de aprender a separar os programas de acordo com o paradigma funcional de programação e melhor organização dos meus programas.
+
+A pasta estrutura-dados aborda exercícios que envolvam estrutura de dados simples que temos que dominar no nosso cotidiano como programador, como vetores e matrizes, nessa pasta são treinados conceitos como:
+- Guardar tipos de dados lógicos em um vetor específico para eles
+- Manipular bem vetores
+- Uso do operador spread
+- Uso de métodos em vetores, como push, sort, find, forEach, map, etc.
+- Uso de matrizes para dispor os dados em tabelas
+- Diferentes problemas enolvendo essas estruturas
+
 (O resto está em estudo/andamento...)
